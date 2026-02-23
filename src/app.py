@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import pydeck as pdk
 import pickle
+import os
 
 # --- Load Model and Data ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
