@@ -5,7 +5,9 @@ import pydeck as pdk
 import pickle
 
 # --- Load Model and Data ---
-with open("air_quality_model.pkl", "rb") as f:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "..", "models", "air_quality_model.pkl")
+with open(MODEL_PATH, "rb") as f:
     model = pickle.load(f)
 
 df = pd.read_csv("aqi_dataset.csv", parse_dates=["Date"])
