@@ -2,6 +2,10 @@
 
 This project predicts Air Quality Index (AQI) using Random Forest Machine Learning model and provides an interactive Streamlit app.
 
+## Live Demo
+
+🔗 https://aqi-prediction-system01.streamlit.app/
+
 ## Features
 
 - Data preprocessing
